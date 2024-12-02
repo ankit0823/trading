@@ -88,7 +88,7 @@ function MutualFunds() {
 
             <div>
                    <div className='relative left-2 w-16 h-16 border border-zinc-200 text-zinc-600 mt-8 px-8 py-8  overflow-hidden'>
-                      <img src="https://assets-netstorage.groww.in/stock-assets/logos/GSTK500870.png"/>
+                   <img className='w-16 h-16 object-cover' src="./smallCap.png"/>
                     </div>
                 <p className='mt-8 text-sm font-[550] ml-2'>Small Cap</p>
             </div>

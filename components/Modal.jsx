@@ -31,10 +31,10 @@ function Modal({a}) {
           Continue with Google
         </button>
         <div className="separator">
-          <span>Or</span>
+          {/* <span>Or</span> */}
         </div>
-        <input type="email" placeholder="Your Email Address" maxLength={250} className="email-input" />
-        <button className="continue-button border-zinc-400 px-2 py-3 bg-emerald-400 rounded-md text-white ">Continue</button>
+        {/* <input type="email" placeholder="Your Email Address" maxLength={250} className="email-input" />
+        <button className="continue-button border-zinc-400 px-2 py-3 bg-emerald-400 rounded-md text-white ">Continue</button> */}
         <p className="terms-text">
           By proceeding, I agree to <a href="#">T&C</a>, <a href="#">Privacy Policy</a> & <a href="#">Tariff Rates</a>
         </p>

@@ -13,7 +13,7 @@ function NavBar() {
   return (
     <>
     <div className='max-w-6xl mx-auto flex justify-between items-center'>
-          <div className='flex items-center justify-between'>
+          {/* <div className='flex items-center justify-between'> */}
               <div className='flex items-center justify-around gap-14'>
                 <div className='flex items-center gap-2'>
                   <img className='w-12 h-12' src="https://play-lh.googleusercontent.com/LHjOai6kf1IsstKNWO9jbMxD-ix_FVYaJSLodKCqYQdoFVzQBuV9z5txxzcTagQcyX8" alt="" />
@@ -25,14 +25,14 @@ function NavBar() {
               </div>
               
               {/* <span className='ml-12'></span> */}
-              <div className='flex gap-10 text-xl font-[700]'>
+              <div className='flex items-center gap-10 text-xl font-[700]'>
           <a className='text-[30px]' href=""><IoIosNotificationsOutline/></a>
-          <Link href={"/wallet"} ><SlWallet/></Link>
+          <a ><SlWallet/></a>
           <button  className='text-2xl'><LiaShoppingCartSolid/></button>
-          <div className='flex cursor-pointer font-[400]'>
+          <div className='mt-5 cursor-pointer font-[400]'>
             <a id='profile'></a><ProfileModal/></div>
         </div>
-          </div>
+          {/* </div> */}
        
     </div>
     </>

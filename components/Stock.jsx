@@ -14,8 +14,8 @@ const Stock = () => {
   return (
     <>
       <div className="flex justify-around w-screen h-screen">
-        <div className="w-[70%] px-14">
-          <div>
+        <div className="w-[70%] px-12">
+          <div >
             <div className="flex items-center justify-between w-full">
               <h3 className="text-xl px-[12%] mt-8 font-[550] text-zinc-600">Index</h3>
               <a href="" className="text-sm px-[12%] -mb-20 font-[550] text-emerald-400">
